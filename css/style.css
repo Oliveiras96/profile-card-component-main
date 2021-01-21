@@ -1,0 +1,26 @@
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profileCard {
+    width: 350px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.profileComponent {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primmaryInfo {
+    display: flex;
+    flex-direction: column;
+}
