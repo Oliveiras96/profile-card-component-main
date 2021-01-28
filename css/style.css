@@ -11,6 +11,9 @@ body {
 }
 
 #profileCard {
+    width: 350px;
+    height: 400px;
+    margin: auto;
     background-color: white;
     border-radius: 15px;
     background-image: url("../images/bg-pattern-card.svg");
@@ -28,10 +31,6 @@ b {
     border: 5px solid white;
     border-radius: 50%;
     margin-top: 25%;
-}
-
-.primmaryInfo {
-    margin-top: 10%;
 }
 
 .primmaryInfo .location {
@@ -68,8 +67,6 @@ b {
 /* For mobile */
 @media only screen and (max-width: 375px) {
     body {
-        height: 85vh;
-        width: 85;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,7 +79,7 @@ b {
     #profileCard {
         width: 310px;
         height: 380px;
-        margin: 0;
+        margin-top: 1vh;
         position: absolute;
         top: 21%;
     }
@@ -104,7 +101,7 @@ b {
 /* ---------------------------------------------------------------- */
 
 /* For Desktop */
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 376px){
     body {
         height: 95vh;
         width: 95;
@@ -132,6 +129,7 @@ b {
     .primmaryInfo {
         display: flex;
         flex-direction: column;
+        margin-top: 10%;
     }
 }
 
