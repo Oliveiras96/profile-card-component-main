@@ -4,6 +4,7 @@
     color: hsl(0, 0%, 59%);
 }
 
+/* Applies to both mobile and desktop*/
 body {
     background-color: hsl(185, 75%, 39%);
     background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
